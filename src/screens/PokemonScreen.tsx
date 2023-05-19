@@ -4,7 +4,7 @@ import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {FadeInImage} from '../components/FadeInImage';
-import {RootStackParams} from '../navigator/Navigator';
+import {RootStackParams} from '../navigator/Tab1';
 import {usePokemon} from '../hooks/usePokemon';
 import {ActivityIndicator} from 'react-native';
 import {PokemonDetails} from '../components/PokemonDetails';
